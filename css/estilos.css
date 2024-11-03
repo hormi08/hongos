@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #e7f3f7;
+    background-size: cover;
+    background: position 0;
+
+
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: rgb(248, 247, 247);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #f4b400;
+}
+
+.bienvenida {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e7f3f7;
+}
+
+.bienvenida h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.bienvenida p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.bienvenida .btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.bienvenida .btn:hover {
+    background-color: #f4b400;
+}
+
+
+
+.relleno {
+    display: flex;
+    padding: 40px;
+    width: 100%;
+    height: 80%;
+    justify-content: space-around;
+    align-items: normal
+}
+
+/*
+.producto {
+    display: flex;
+    justify-content:space-around;
+    padding: 40px 20px;
+    background-color: #e7f3f7;
+    
+}
+
+
+.productos .precio {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+
+.comprar-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.comprar-btn:hover {
+    background-color: #f4b400;
+}
+*/
+
+.producto p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+    div {
+        text-align: center;
+        background-color: rgb(236, 241, 224);
+        border: 5px solid;
+        width: 300px;
+        height: 300px;
+
+        img {
+            width: 100%;
+            height: 90%;
+
+        }
+
+    }
+
+}
+
+.mision {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e7f3f7;
+
+}
+
+.sobre-nosotros {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e7f3f7;
+}
+
+.contacto {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #e7f3f7;
+}
+
+.contacto form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacto input,
+.contacto textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #e7f3f7;
+}
+
+.contacto button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: #f4b400;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    height: 20%;
+    position: relative;
+    bottom: 0;
+    
+}
